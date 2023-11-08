@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    border: solid red 3px;
+    height: 5%
+}
+
+.content-wrapper {
+    border: solid blue 3px;
+    height: 90%;
+}
+
+.footer {
+    border: solid green 3px;
+    height: 5%
+
+}
