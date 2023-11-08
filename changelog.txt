@@ -1,0 +1,3 @@
+07/22/2023 
+    * Add index.html, script.js and style.css
+    * Basic HTML layout 
