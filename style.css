@@ -1,27 +1,81 @@
 * {
     margin: 0;
     padding: 0;
+    
     list-style: none;
+}
+
+html,
+body {
+    position:relative; 
+    min-height: 100%;
+    height: 100%;
 }
 
 .main-wrapper {
     display: flex;
     flex-direction: column;
     height: 100%;
+    justify-content:space-between
 }
 
+/* Header */
 .header {
     border: solid red 3px;
-    height: 5%
+    min-height: 60px
 }
 
+/* Page actual content */
 .content-wrapper {
+    flex-grow: 1;
     border: solid blue 3px;
-    height: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
+.content {
+    height: 100%;
+    border: solid black 3px;
+    width: 45%;
+     
+}
+
+.weather-panel {
+    min-height: 300px;
+    height: 200px;
+    border: solid black 3px;
+    margin: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.place-title {
+    margin: 2px;
+    height: 20%;
+    display: flex;
+    border: solid black 1px;
+}
+
+.days-wrapper {
+    margin: 1px;
+    border: solid black 1px;
+    height: 80%;
+    display: flex;
+    justify-content:space-between
+}
+
+.day {
+    margin: 1px;
+    width: 30%;
+    border: solid black 1px;
+    
+}
+
+/* Footer */
 .footer {
     border: solid green 3px;
-    height: 5%
-
+    min-height:60px;
 }
+
