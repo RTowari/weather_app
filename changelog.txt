@@ -1,6 +1,10 @@
 07/22/2023 
-    * Add index.html, script.js and style.css
+    * Added index.html, script.js and style.css
     * Basic HTML layout
 
 10/22/2023
     * Most of the layout for content-wrapper finished
+
+14/22/2023
+    * Added color, border, shadow, etc. 
+    * Added new divs

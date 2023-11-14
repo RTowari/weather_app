@@ -8,26 +8,44 @@
 </head>
 <body>
   <div class="main-wrapper">
-    <div class="header"></div>
+    <div class="header">
+      <div class="page-title-container">
+        <div class="title">@Weather App</div>
+      </div>
+      <div class="information link">Information</div>
+      <div class="contact_us link">Contact Us</div>
+    </div>
     <div class="content-wrapper">
       <div class="content">
         <div class="weather-panel">
           <div class="place-title">London</div>
           <div class="days-wrapper">
-            <div class="day">Today</div>
-            <div class="day">Tomorrow</div>
-            <div class="day">Overtomorrow</div>
+            <div class="day-content" id="today">
+              <div class="day-title">Today</div>
+              <div class="day-weather-details">
+                <div class="weather-image-description"></div>
+                <div class="temperature"></div>
+                <div class="wind-speed"></div>
+              </div>
+            </div>
+            <div class="day-content" id="tomorrow">
+              <div class="day-title">Tomorrow</div>
+              <div class="day-weather-details">
+                <div class="weather-image-description"></div>
+                <div class="temperature"></div>
+                <div class="wind-speed"></div>
+              </div>
+            </div>
+            <div class="day-content" id="overtomorrow">
+              <div class="day-title">Overtomorrow</div>
+              <div class="day-weather-details">
+                <div class="weather-image-description"></div>
+                <div class="temperature"></div>
+                <div class="wind-speed"></div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="weather-panel">
-          <div class="place-title">London</div>
-          <div class="days-wrapper">
-            <div class="day">Today</div>
-            <div class="day">Tomorrow</div>
-            <div class="day">Overtomorrow</div>
-          </div>
-        </div>
-
         
       </div>
     </div>
