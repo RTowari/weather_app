@@ -1,10 +1,15 @@
-07/22/2023 
+07/11/2023 
     * Added index.html, script.js and style.css
     * Basic HTML layout
 
-10/22/2023
+10/11/2023
     * Most of the layout for content-wrapper finished
 
-14/22/2023
+14/11/2023
     * Added color, border, shadow, etc. 
     * Added new divs
+
+15/11/2023
+    * Fixed typos on changelog.txt
+    * Added all divs inside weather-panel
+    * Added button to add content
