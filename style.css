@@ -22,6 +22,22 @@ body {
     height: 100%;
 }
 
+.location-form {
+    z-index: 100;
+    position: absolute;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+
+    z-index: 2;
+    opacity: 0.33;
+    background-color: black;
+}
+
 .main-wrapper {
     display: flex;
     flex-direction: column;
