@@ -25,6 +25,7 @@ body {
 .location-form {
     z-index: 100;
     position: absolute;
+    display: none;
 }
 
 .overlay {

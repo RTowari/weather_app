@@ -13,3 +13,11 @@
     * Fixed typos on changelog.txt
     * Added all divs inside weather-panel
     * Added button to add content
+
+20/11/2023
+    * Some functions in script.js to get a form after clicking 'Nuevo+' button
+
+30/11/2023
+    * API working
+    * Now user can create new weather elements
+    * API is working for temperature only, but the infraestructure for the rest is most in place
