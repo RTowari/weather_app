@@ -69,7 +69,7 @@ async function set_forecast(location_name) {
 
     // Gets response
     weatherResponse = 
-        await fetch(`http://api.weatherapi.com/v1/forecast.json?key=2f273046412a4ed1a11232227230111&q=${location_name}&days=3&aqi=no&alerts=no`)
+        await fetch(`https://api.weatherapi.com/v1/forecast.json?key=2f273046412a4ed1a11232227230111&q=${location_name}&days=3&aqi=no&alerts=no`)
             .then(function(response) {
                 return response.json();
             })

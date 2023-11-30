@@ -21,3 +21,6 @@
     * API working
     * Now user can create new weather elements
     * API is working for temperature only, but the infraestructure for the rest is most in place
+    
+30/11/2023
+    * API fetch is now https instead of http
