@@ -24,3 +24,8 @@
     
 30/11/2023
     * API fetch is now https instead of http
+
+05/11/2023
+    * Webpack added to project. 
+        *Dist and src folder have been added. JS, CSS and HTML files are now inside those
+        

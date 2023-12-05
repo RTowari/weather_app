@@ -1,0 +1,65 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Weather App</title>
+</head>
+<body>
+  <script src="bundle.js" defer></script>
+  <div class="location-form">
+    <form>
+        <label for="location-name">Location:</label>
+        <input type="text" id="location-name" name="location-name">
+        <input type="submit" value="Submit">
+    </form>
+  </div>
+  <div class="overlay"></div>
+  <div class="main-wrapper">
+    <div class="header">
+      <div class="page-title-container">
+        <div class="title">@Weather App</div>
+      </div>
+      <div class="information link">Information</div>
+      <div class="contact_us link">Contact Us</div>
+    </div>
+    <div class="content-wrapper">
+      <div class="content">
+
+        <button class="add-button" type="button">+ Nuevo</button>
+        <div class="weather-panel">
+          <div class="place-title">London</div>
+          <div class="days-wrapper">
+            <div class="day-content" id="tomorrow">
+              <div class="day-title">Today</div>
+              <div class="day-details">
+                <img class="weather-image" src="../src/images/sun.png">
+                <div class="temperature">40ºC</div>
+                <div class="wind-speed">24km/h</div>
+              </div>
+            </div>
+            <div class="day-content" id="tomorrow">
+              <div class="day-title">Tomorrow</div>
+              <div class="day-details">
+                <img class="weather-image" src="../src/images/sun.png">
+                <div class="temperature">40ºC</div>
+                <div class="wind-speed">24km/h</div>
+              </div>
+            </div>
+            <div class="day-content" id="tomorrow">
+              <div class="day-title">Overtomorrow</div>
+              <div class="day-details">
+                <img class="weather-image" src="../src/images/sun.png">
+                <div class="temperature">40ºC</div>
+                <div class="wind-speed">24km/h</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+    <div class="footer"></div>
+  </div>   
+</body>
