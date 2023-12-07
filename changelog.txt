@@ -28,4 +28,9 @@
 05/11/2023
     * Webpack added to project. 
         *Dist and src folder have been added. JS, CSS and HTML files are now inside those
+
+07/11/2023
+    * Html-loader added
+    * Images will be copy to output
+    * Added: now html-loader will change img src during building
         

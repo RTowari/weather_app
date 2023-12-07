@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import './style.css';
+import Sun from './images/sun.png'
 
 document.querySelector(".add-button").addEventListener("click", render_form)
 document.querySelector(".location-form form").addEventListener("submit", submit_form);
